@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café & Bar Americano - Your perfect place to end a long day in Berlin. Cool music, chill atmosphere, open daily 10:00-04:00.">
+    <meta name="keywords" content="Berlin bar, Café Americano, Spandau bar, live music, karaoke, cocktails, beer">
+    <meta property="og:title" content="Café & Bar Americano - Berlin">
+    <meta property="og:description" content="Trendy bar in Berlin with cool music and chill atmosphere">
+    <meta property="og:image" content="images/downloaded/image-1.jpg">
+    <meta property="og:type" content="website">
+    <title>Café & Bar Americano | Berlin Bar & Café</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>Café & Bar Americano</h2>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#location" class="nav-link">Location</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Café & Bar Americano</h1>
+            <p class="hero-subtitle">Your Perfect Place to End a Long Day</p>
+            <p class="hero-description">Cool Music • Chill Atmosphere • Open Daily</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                <a href="#location" class="btn btn-secondary">Visit Us</a>
+            </div>
+            <div class="hero-hours">
+                <div class="hours-badge">
+                    <span class="open-indicator"></span>
+                    <span>Open Now • 10:00 AM - 04:00 AM</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Discover</span>
+                <h2 class="section-title">Welcome to Berlin's Hidden Gem</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/downloaded/image-1.jpg" alt="Café & Bar Americano Interior" loading="lazy">
+                    <div class="image-overlay">
+                        <p class="overlay-text">Trendy • Relaxed • Authentic</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>A Berlin Experience Like No Other</h3>
+                    <p class="lead">Located in the heart of Berlin's Spandau district, Café & Bar Americano is where locals gather to unwind, connect, and celebrate life.</p>
+                    <p>Whether you're looking to end a long day with a perfectly crafted cocktail, catch up with friends over coffee, or enjoy live music and karaoke, our trendy bar offers the perfect atmosphere. With cool music, a chill vibe, and a welcoming spirit, we've become a beloved destination for both residents and visitors.</p>
+
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">🎵</div>
+                            <h4>Live Music</h4>
+                            <p>Regular live performances and DJ sets</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎤</div>
+                            <h4>Karaoke Nights</h4>
+                            <p>Show off your vocals with friends</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎯</div>
+                            <h4>Darts & Games</h4>
+                            <p>Competitive fun for everyone</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🐾</div>
+                            <h4>Pet Friendly</h4>
+                            <p>Your furry friends are welcome</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">📶</div>
+                            <h4>Free WiFi</h4>
+                            <p>Stay connected while you relax</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎉</div>
+                            <h4>Private Events</h4>
+                            <p>Host your special occasions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Taste</span>
+                <h2 class="section-title">Drinks & Delights</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">From classic cocktails to Berlin craft beers, we serve quality beverages all day and night</p>
+            </div>
+
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="cocktails">Cocktails</button>
+                <button class="menu-tab" data-tab="beer">Beer & Wine</button>
+                <button class="menu-tab" data-tab="coffee">Coffee & Tea</button>
+                <button class="menu-tab" data-tab="specials">Specials</button>
+            </div>
+
+            <div class="menu-content">
+                <div class="menu-category active" id="cocktails">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Americano Classic</h4>
+                                <span class="item-price">€8.50</span>
+                            </div>
+                            <p class="item-description">Campari, sweet vermouth, soda water, orange peel</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Berlin Mule</h4>
+                                <span class="item-price">€9.00</span>
+                            </div>
+                            <p class="item-description">Vodka, ginger beer, lime, fresh mint</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Negroni</h4>
+                                <span class="item-price">€9.50</span>
+                            </div>
+                            <p class="item-description">Gin, Campari, sweet vermouth, orange twist</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Espresso Martini</h4>
+                                <span class="item-price">€10.00</span>
+                            </div>
+                            <p class="item-description">Vodka, coffee liqueur, fresh espresso, vanilla</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Mojito</h4>
+                                <span class="item-price">€8.50</span>
+                            </div>
+                            <p class="item-description">White rum, fresh mint, lime, soda, sugar</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Old Fashioned</h4>
+                                <span class="item-price">€11.00</span>
+                            </div>
+                            <p class="item-description">Bourbon, bitters, sugar, orange peel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category" id="beer">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Berlin Pilsner</h4>
+                                <span class="item-price">€4.50</span>
+                            </div>
+                            <p class="item-description">0.5L draft • Local favorite</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Craft Beer Selection</h4>
+                                <span class="item-price">€5.50</span>
+                            </div>
+                            <p class="item-description">Rotating taps from local breweries</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Wheat Beer</h4>
+                                <span class="item-price">€4.80</span>
+                            </div>
+                            <p class="item-description">Traditional Bavarian style</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>House Red Wine</h4>
+                                <span class="item-price">€5.00</span>
+                            </div>
+                            <p class="item-description">Glass • Spanish Tempranillo</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>House White Wine</h4>
+                                <span class="item-price">€5.00</span>
+                            </div>
+                            <p class="item-description">Glass • Italian Pinot Grigio</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Prosecco</h4>
+                                <span class="item-price">€6.50</span>
+                            </div>
+                            <p class="item-description">Glass • Italian sparkling wine</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category" id="coffee">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Espresso</h4>
+                                <span class="item-price">€2.50</span>
+                            </div>
+                            <p class="item-description">Single shot • Rich and bold</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Café Americano</h4>
+                                <span class="item-price">€3.20</span>
+                            </div>
+                            <p class="item-description">Our signature • Smooth and balanced</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Cappuccino</h4>
+                                <span class="item-price">€3.50</span>
+                            </div>
+                            <p class="item-description">Classic Italian style with foam art</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Latte Macchiato</h4>
+                                <span class="item-price">€3.80</span>
+                            </div>
+                            <p class="item-description">Layered perfection</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fresh Mint Tea</h4>
+                                <span class="item-price">€3.00</span>
+                            </div>
+                            <p class="item-description">Refreshing herbal blend</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Black Tea Selection</h4>
+                                <span class="item-price">€2.80</span>
+                            </div>
+                            <p class="item-description">Earl Grey, English Breakfast, Assam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category" id="specials">
+                    <div class="menu-grid">
+                        <div class="menu-item featured">
+                            <div class="item-header">
+                                <h4>Happy Hour</h4>
+                                <span class="item-price">Daily 17:00-20:00</span>
+                            </div>
+                            <p class="item-description">All cocktails €2 off • Select beers €3.50</p>
+                        </div>
+                        <div class="menu-item featured">
+                            <div class="item-header">
+                                <h4>Karaoke Special</h4>
+                                <span class="item-price">Friday & Saturday</span>
+                            </div>
+                            <p class="item-description">Free shot with every song performed!</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Snack Platter</h4>
+                                <span class="item-price">€12.00</span>
+                            </div>
+                            <p class="item-description">Olives, nuts, cheese, crackers</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Berlin Currywurst</h4>
+                                <span class="item-price">€6.50</span>
+                            </div>
+                            <p class="item-description">Traditional street food favorite</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-note">
+                <p><strong>💳 Payment:</strong> Cash only • ATM nearby</p>
+                <p><strong>🍽️ No Reservations:</strong> Walk-ins welcome all day</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Experience</span>
+                <h2 class="section-title">Atmosphere & Vibes</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-index="0">
+                    <img src="images/downloaded/image-1.jpg" alt="Café & Bar Americano Interior" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="1">
+                    <img src="images/downloaded/image-2.jpg" alt="Bar Atmosphere" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item placeholder" data-index="2">
+                    <div class="placeholder-content">
+                        <span class="placeholder-icon">🎵</span>
+                        <p>Live Music</p>
+                    </div>
+                </div>
+                <div class="gallery-item placeholder" data-index="3">
+                    <div class="placeholder-content">
+                        <span class="placeholder-icon">🍹</span>
+                        <p>Cocktails</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visit</span>
+                <h2 class="section-title">Find Us in Berlin</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>Address</h4>
+                            <p>Metzer Str. 4<br>13595 Berlin<br>Deutschland</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Café%20%26%20Bar%20Americano&query_place_id=ChIJY_sT4UpWqEcRoJv4LR7t3Ww" target="_blank" class="link-button">Get Directions</a>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-text">
+                            <h4>Opening Hours</h4>
+                            <div class="hours-list">
+                                <div class="hours-row">
+                                    <span>Monday - Sunday</span>
+                                    <span class="hours-time">10:00 - 04:00</span>
+                                </div>
+                                <p class="hours-note">Open 7 days a week</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">🚇</div>
+                        <div class="info-text">
+                            <h4>Getting Here</h4>
+                            <p><strong>Public Transport:</strong><br>
+                            Bus lines nearby<br>
+                            Spandau district</p>
+                            <p><strong>Parking:</strong> Street parking available</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.8!2d13.196!3d52.525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6cddedef2ef89ba0!2sCaf%C3%A9%20%26%20Bar%20Americano!5e0!3m2!1sen!2sde!4v1234567890"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Connect</span>
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h4>Phone</h4>
+                        <a href="tel:+493085747426">+49 30 85747426</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h4>Email</h4>
+                        <a href="mailto:agababa@gmail.com">agababa@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🌐</div>
+                        <h4>Website</h4>
+                        <a href="https://metzer-kneipe-berlin.eatbu.com" target="_blank">Visit Our Site</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3>Send Us a Message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Café & Bar Americano</h3>
+                    <p>Your perfect place to end a long day in Berlin. Cool music, chill atmosphere, and great drinks await you.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#location">Location</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Open 7 Days a Week<br>10:00 AM - 04:00 AM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Metzer Str. 4, 13595 Berlin<br>
+                    <a href="tel:+493085747426">+49 30 85747426</a><br>
+                    <a href="mailto:agababa@gmail.com">agababa@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Café & Bar Americano. All rights reserved.</p>
+                <p class="footer-note">Website created with care for our Berlin community</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-next" id="lightboxNext">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
